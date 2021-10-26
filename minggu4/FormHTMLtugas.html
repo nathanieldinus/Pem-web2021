@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi PPDB Jalur Zonasi</title>
+</head>
+<body>
+	<h1 align="center" style="color:skyblue; ">Formulir PPDB Jalur Zonasi Tahun 2020</h1>
+	<form action="contact.php" method="post">
+	<fieldset>
+		<legend>Info Pendaftaran</legend>
+		<p>
+			<label>NISN : </label>
+			<input type="text" name="NISN" placeholder="Nomor Induk Siswa">
+		</p>
+		<p>
+			<label>Asal Sekolah : </label> <br>
+			<input type="radio" id="Sekolah1" name="Sekolah1" value="SMA">
+			<label for="Sekolah1"> Sekolah Menengah Atas </label> <br>
+			<input type="radio" id="Sekolah2" name="Sekolah2" value="SMK">
+			<label for="Sekolah2"> Sekolah Menengah Kejuruan </label> <br>
+			<input type="radio" id="Sekolah3" name="Sekolah3" value="MA">
+			<label for="Sekolah3"> Madrasah Aliyah </label> <br>
+			<label>Nama Sekolah : </label>
+			<input type="text" name="Namasekolah" placeholder="Nama Sekolah">
+		</p>
+		<p>
+		<label>Tahun Lulus : </label> <br>
+			<input type="radio" id="Lulus1" name="Lulus1" value="2021">
+			<label for="Lulus1"> 2021 </label> <br>
+			<input type="radio" id="Lulus2" name="Lulus2" value="2020">
+			<label for="Lulus2"> 2020 </label> <br>
+			<input type="radio" id="Lulus3" name="Lulus3" value="2019">
+			<label for="Lulus3"> 2019 </label> <br>
+			<label>Lampiran Foto Ijazah : </label>
+			<input type="file" name="FileToUpload" id="FileToUpload">
+		</p>
+		<p>
+			<input type="submit" name="sudmit" value="Send">
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Data Calon Peserta</legend>
+		<p>
+			<label>Nama : </label>
+			<input type="text" name="Nama" placeholder="Nama Lengkap">
+		</p>
+		<p>
+			<label>NIK : </label>
+			<input type="text" name="NIK" placeholder="Nomor Induk Penduduk">
+		</p>
+		<p>
+			<label>Tempat Lahir : </label>
+			<input type="text" name="TempatLahir" placeholder="Tempat Lahir">
+			<label>Tanggal Lahir : </label>
+			<input type="date" name="TanggalLahir">
+			<label>Umur : </label>
+			<input type="number" min="15" max="75" name="TanggalLahir">
+		</p>
+		<p>
+			<label>Foto Akta Kelahiran : </label>
+			<input type="file" name="FileToUpload" id="FileToUpload">
+		</p>
+		<p>
+			<label>Jenis Kelamin : </label>
+			<select name="jeniskelamin">
+				<option value="Laki">Laki-Laki</option>
+				<option value="Perempuan">Perempuan</option>
+			</select>
+		</p>
+		<p>
+			<label>Alamat : </label> <br>
+			<label>Desa/Kel : </label>
+			<input type="text" name="Desakel" placeholder="Desa/Kelurahan"> <br>
+			<label>Kecamatan : </label>
+			<input type="text" name="Kecamatan" placeholder="Kecamatan"> <br>
+			<label>Kabupaten/Kota : </label>
+			<input type="text" name="Kabkota" placeholder="Kabupaten/Kota"> <br>
+			<label>Provinsi : </label>
+			<input type="text" name="Provinsi" placeholder="Provinsi">
+		</p>
+		<p>
+			<label>Email Aktif : </label>
+			<input type="email" name="Email" placeholder="Your Email">
+		</p>
+		<p>
+			<input type="submit" name="sudmit" value="Send">
+		</p>
+	<fieldset>
+		<legend>Data Orang Tua</legend>
+		<p>
+			<label>Nomor Kartu Keluarga : </label>
+			<input type="text" name="Nokk" placeholder="Nomor KK"> <br>
+			<label>Lampiran Kartu Keluarga : </label>
+			<input type="file" name="FileToUpload" id="FileToUpload">
+		</p>
+		<p>
+			<label>Nama Ayah Kandung : </label>
+			<input type="text" name="Namaayah" placeholder="Nama Lengkap Ayah"> <br>
+			<label>Agama : </label>
+			<select name="Agama">
+				<option value="Islam">Islam</option>
+				<option value="Katholik">Kristen Katholik</option>
+				<option value="Kristen">Kristen Protestan</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+				<option value="Kong Hu Chu">Kong Hu Chu</option>
+			</select> <br>
+			<label>Pekerjaan : </label>
+			<input type="text" name="Pekerjaanayah" placeholder="Pekerjaan Ayah"> <br>
+		</p>
+		<p>
+			<label>Nama Ibu Kandung : </label>
+			<input type="text" name="Namaibu" placeholder="Nama Lengkap Ibu"> <br>
+			<label>Agama : </label>
+			<select name="Agama">
+				<option value="Islam">Islam</option>
+				<option value="Katholik">Kristen Katholik</option>
+				<option value="Kristen">Kristen Protestan</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+				<option value="Kong Hu Chu">Kong Hu Chu</option>
+			</select> <br>
+			<label>Pekerjaan : </label>
+			<input type="text" name="Pekerjaanibu" placeholder="Pekerjaan Ibu"> <br>
+		</p>
+		<p>
+			<label>Alamat Orang Tua : </label> <br>
+			<label>Desa/Kel : </label>
+			<input type="text" name="Desakelortu" placeholder="Desa/Kelurahan"> <br>
+			<label>Kecamatan : </label>
+			<input type="text" name="Kecamatanortu" placeholder="Kecamatan"> <br>
+			<label>Kabupaten/Kota : </label>
+			<input type="text" name="Kabkotaortu" placeholder="Kabupaten/Kota"> <br>
+			<label>Provinsi : </label>
+			<input type="text" name="Provinsiortu" placeholder="Provinsi">
+		</p>
+		<p>
+			<input type="submit" name="sudmit" value="Send">
+		</p>
+	</fieldset>
+</html>
