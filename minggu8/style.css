@@ -1,0 +1,15 @@
+		p{
+			font-family: serif;
+			line-height: 1.75em;
+			font-size: 18px;
+		}
+		i{
+			font-family: sans;
+			color: royalblue;
+		}
+		h2{
+			font-family: monospace;
+			color: #333;
+		}
+
+		<link rel="stylesheet" type="text/css" href="style.css">
