@@ -1,0 +1,20 @@
+body{
+	background: darkred;
+	font-family: roboto;
+	text-align: center;
+	color: whitesmoke;
+}
+h1,h2{
+	color: whitesmoke;
+}
+.kotak{
+	background: darkblue;
+	width: 200px;
+	height: 200px;
+	animation-name: animasi_kotak;
+	animation-duration: 2s;
+}
+@keyframes animasi_kotak{
+	from{ background: darkblue; }
+	to{ background: darkred; }
+}

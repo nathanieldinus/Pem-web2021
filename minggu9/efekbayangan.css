@@ -1,0 +1,35 @@
+body{
+	background: darkred;
+	font-family: roboto;
+	text-align: center;
+	color: whitesmoke;
+}
+h1{
+	color: whitesmoke;
+}
+.ketengah{
+	margin: 10px auto;
+	width: 1150px;
+}
+.tulisan1{
+	text-shadow: 20px 10px 5px;
+}
+.tulisan2{
+	text-shadow: 0px 0px 20px;
+}
+.kotak1{
+	background: darkblue;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	float: left;
+	box-shadow: 20px 20px 40px 10px yellowgreen;
+}
+.kotak2{
+	background: darkblue;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	float: left;
+	box-shadow: 0px 0px 10px 10px lightgoldenrodyellow;
+}

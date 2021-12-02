@@ -1,0 +1,33 @@
+body{
+	background: darkred;
+	font-family: roboto;
+	text-align: center;
+	color: whitesmoke;
+}
+h1,h2{
+	color: whitesmoke;
+}
+.ketengah{
+	margin: 10px auto;
+	width: 1150px;
+}
+
+.kotak1{
+	background: darkblue;
+	padding: 20px;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	float: left;
+}
+.kotak2{
+	background: darkblue;
+	padding: 20px;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	float: left;
+	-ms-transform: scale(2,3); /*Support IE 9 */
+	-webkit-transform: scale(2,3); /*Support Safari */
+	transform: scale(2,3); /*Standard syntax */
+}
