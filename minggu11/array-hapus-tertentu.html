@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Menghapus Data Pertama dari Array</title>
+</head>
+<body>
+	<script>
+		var products =["Iphone", "Samsung", "Oppo", "Xiaomi", "Vivo", "Nokia", "Infinix", "Sony"];
+
+		products.splice(2, 3);
+
+		document.write("<h3>Daftar Produk</h3>");
+		document.write("<ol>");
+
+		for(let i=0; i<products.length; i++){
+			document.write(`<li> ${products[i]} </li>`);
+		}
+		document.write("</ol>");
+	</script>
+</body>
+</html>
