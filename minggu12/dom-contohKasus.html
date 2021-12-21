@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>DOM API Javasript</title>
+</head>
+<body>
+	<h1>Aplikasi Ubah Warna</h1>
+	<label>Warna latar: </label>
+	<input type="color" id="bg-color"/>
+	<br>
+	<label>Warna teks: </label>
+	<input type="color" id="text-color"/>
+	<script>
+		var bgcolor = document.getElementById('bg-color');
+		var txtcolor = document.getElementById('text-color');
+		
+		bgcolor.addEventListener("change", (event) => {
+			document.body.style.backgroundColor = bgcolor.value;
+		});
+		bgcolor.addEventListener("change", (event) => {
+			document.body.style.color = txtcolor.value;
+		});
+	</script>
+</body>
+</html>
