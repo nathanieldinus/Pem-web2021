@@ -1,0 +1,58 @@
+[
+  {
+    "nim":"13226",
+    "nama":"Liem Nathaniel",
+    "alamat":"Semarang",
+    "jurusan":"Teknik Informatika",
+    "MK":[
+      {
+        "mk_kode":"101",
+        "nama_mk":"Sistem Basis Data"
+      },
+      {
+        "mk_kode":"102",
+        "nama_mk":"Aljabar Linear"
+      },
+      {
+        "mk_kode":"103",
+        "nama_mk":"Analisa Logaritma"
+      },
+      {
+        "mk_kode":"104",
+        "nama_mk":"Kecerdasan Buatan"
+      },
+      {
+        "mk_kode":"105",
+        "nama_mk":"Jaringan Komputer"
+      }
+    ]
+  },
+  {
+    "nim":"13227",
+    "nama":"Michelle Ananta",
+    "alamat":"Kendal",
+    "jurusan":"Sistem Informatika",
+    "MK":[
+      {
+        "mk_kode":"301",
+        "nama_mk":"Analisa Proses Bisnis"
+      },
+      {
+        "mk_kode":"302",
+        "nama_mk":"Database Terdisribusi"
+      },
+      {
+        "mk_kode":"303",
+        "nama_mk":"Etika Profesi"
+      },
+      {
+        "mk_kode":"304",
+        "nama_mk":"Rekayasa Web"
+      },
+      {
+        "mk_kode":"305",
+        "nama_mk":"Audit Sistem Informasi"
+      }
+    ]
+  }
+]
