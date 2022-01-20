@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- bootstrap 3 and affix -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- end  -->
+    <link rel="stylesheet" href="assets/css/styletoko.css">
+    <title>Tokoku</title>
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+
+    <div class="header">
+        <div class="item-header-1 d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <span>Download Tokoku App</span>
+            </div>
+
+            <div class="d-flex">
+                <span class="mr-4">Tentang Tokoku</span>
+                <span class="mr-4">Mitra Tokoku</span>
+                <span class="mr-4">Mulai Berjualan</span>
+                <span class="mr-4">Promo</span>
+                <span class="mr-4">Toko Bantu</span>
+            </div>
+        </div>
+
+        <div class="item-header-2 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-center">
+                <img class="img-tokoku" src="assets/img/30.png" style="width: 147px;" alt="">
+                <span class="mx-2 text-kategory">Filter
+                </span>
+                <div class="wrap-search">
+                    <input type="text" class="form-control" placeholder="Cari barang" data-toggle="modal"
+                        data-target="#exampleModal">
+                    <div class=" wrap-icon-search">
+                        <img class="img-search" src="assets/img/3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="wrap-img-shop mx-3" onclick="on()">
+                    <img class="img-shop" src="assets/img/4.png" alt="">
+                </div>
+
+                <span class="mr-3 line">|</span>
+
+                <div class="d-flex">
+                    <a href="indexlogin1.html"><button class="btn font-weight-bold mr-3">Masuk</button></a>
+                    <a href="indexsignin1.html"><button class="btn font-weight-bold">Daftar</button></a>
+                </div>
+            </div>
+            <div class="text-under-search d-flex mt-2">
+                <span class="mr-3">Handphone</span>
+                <span class="mr-3">Sepeda Motor</span>
+                <span class="mr-3">Mobil</span>
+                <span class="mr-3">Elektronik</span>
+                <span class="mr-3">Aksesoris</span>
+            </div>
+        </div>
+
+        <div class="menu-bar flex-column justify-content-between align-items-center" id="menuBar">
+            <img src="assets/img/5.png" alt="">
+            <h4 class="mt-2">Wah! keranjang belanjamu penuh!</h4>
+            <p class="text-center">Daripada dianggurin, mending checkout dengan barang barang </br>Mulai Dari Sekarang!</p>
+            <a href="indexkeranjang.html"><button class="btn">Keranjang</button></a>
+        </div>
+    </div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Produk</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="indexproduct.html">Produk</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Toko</li>
+        </ol>
+      </nav>
+
+    <!-- kategori -->
+	<section class="kategori">
+		<div class="container">
+			<h3>SERIKAT TOKO MURAH</h3>
+
+    <!-- Judul -->
+	<div class="rekomendasi">
+		<h3>KATEGORI</h3>
+	</div>
+
+			<div class="box">
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-hamburger"></i></div>
+					<h4>MAKANAN</h4>
+				</div>
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-mobile-alt"></i></div>
+					<h4>ELECTRONIC</h4>
+				</div>
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-tshirt"></i></div>
+					<h4>FASHION</h4>
+				</div>
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-couch"></i></div>
+					<h4>ITEM</h4>
+				</div>
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-paw"></i></div>
+					<h4>PET</h4>
+				</div>
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-gamepad"></i></div>
+					<h4>GAME</h4>
+				</div>
+				<div class="col-7">
+					<div class="icon"><i class="fas fa-random"></i></div>
+					<h4>RANDOM</h4> <br><br>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Judul -->
+	<div class="rekomendasi">
+		<h3>REKOMENDASI UNTUK KAMU</h3>
+	</div>
+
+	<!-- beli beli -->
+	<div class='gambar'>
+
+        <div class='foto'>
+            <img src='assets/img/12.jpg' style="height: 200px; width: 70%;">
+            <h5>Kaos Anak trending</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">47%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 75.000</del></span>
+            <p>Rp. 40.000</p> <br>
+            <a href='indexproduct.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/32.jpg' style="height: 200px; width: 70%;">
+            <h5>Iphone 12 Pro Max</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">10%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 20.000.000</del></span>
+            <p>Rp. 18.000.000</p> <br>
+            <a href='indexproduct1.html'>Buy Now</a>
+            </div>
+
+        <div class='foto'>
+            <img src='assets/img/33.jpg' style="height: 200px; width: 70%;">
+            <h5>Canon EOS 600d kit 18-55 is II</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">20%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 6.000.000</del></span>
+            <p>Rp. 4.800.000</p> <br>
+            <a href='indexproduct2.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/34.jpg' style="height: 200px; width: 70%;">
+            <h5>ZIYUN CRANE 2 3 AXIS GIMBAL</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">5%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 10.000.000</del></span>
+            <p>Rp. 9.500.000</p><br>
+            <a href='indexproduct3.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/35.jpg' style="height: 200px; width: 70%;">
+            <h5>Samsung Galaxy Fold 2</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">10%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 20.000.000</del></span>
+            <p>Rp. 18.000.000</p><br>
+            <a href='indexproduct4.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/36.jpg' style="height: 200px; width: 70%;">
+            <h5>Full HD Smart TV 32 inch LG</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">20%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 4.000.000</del></span>
+            <p>Rp. 3.200.000</p><br>
+            <a href='indexproduct5.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/12.jpg' style="height: 200px; width: 70%;">
+            <h5>Kaos Anak trending</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">47%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 75.000</del></span>
+            <p>Rp. 40.000</p> <br>
+            <a href='indexproduct.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/32.jpg' style="height: 200px; width: 70%;">
+            <h5>Iphone 12 Pro Max</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">10%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 20.000.000</del></span>
+            <p>Rp. 18.000.000</p> <br>
+            <a href='indexproduct1.html'>Buy Now</a>
+        </div><br><br>
+    </div>
+
+    <!-- Judul -->
+	<div class="rekomendasi">
+		<h3>SEMUA PRODUK</h3>
+	</div>
+
+	<!-- beli beli -->
+	<div class='gambar'>
+
+        <div class='foto'>
+            <img src='assets/img/12.jpg' style="height: 200px; width: 70%;">
+            <h5>Kaos Anak trending</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">47%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 75.000</del></span>
+            <p>Rp. 40.000</p> <br>
+            <a href='indexproduct.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/32.jpg' style="height: 200px; width: 70%;">
+            <h5>Iphone 12 Pro Max</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">10%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 20.000.000</del></span>
+            <p>Rp. 18.000.000</p> <br>
+            <a href='indexproduct1.html'>Buy Now</a>
+            </div>
+
+        <div class='foto'>
+            <img src='assets/img/33.jpg' style="height: 200px; width: 70%;">
+            <h5>Canon EOS 600d kit 18-55 is II</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">20%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 6.000.000</del></span>
+            <p>Rp. 4.800.000</p> <br>
+            <a href='indexproduct2.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/34.jpg' style="height: 200px; width: 70%;">
+            <h5>ZIYUN CRANE 2 3 AXIS GIMBAL</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">5%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 10.000.000</del></span>
+            <p>Rp. 9.500.000</p><br>
+            <a href='indexproduct3.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/35.jpg' style="height: 200px; width: 70%;">
+            <h5>Samsung Galaxy Fold 2</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">10%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 20.000.000</del></span>
+            <p>Rp. 18.000.000</p><br>
+            <a href='indexproduct4.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/36.jpg' style="height: 200px; width: 70%;">
+            <h5>Full HD Smart TV 32 inch LG</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">20%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 4.000.000</del></span>
+            <p>Rp. 3.200.000</p><br>
+            <a href='indexproduct5.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/12.jpg' style="height: 200px; width: 70%;">
+            <h5>Kaos Anak trending</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">47%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 75.000</del></span>
+            <p>Rp. 40.000</p> <br>
+            <a href='indexproduct.html'>Buy Now</a>
+        </div>
+
+        <div class='foto'>
+            <img src='assets/img/32.jpg' style="height: 200px; width: 70%;">
+            <h5>Iphone 12 Pro Max</h5>
+            <span class="badge badge-pill" style="background-color: #ff00d13b; color: d50000;">10%</span>
+            <span class="badge-pill badge" style="color: #989898;"><del>Rp 20.000.000</del></span>
+            <p>Rp. 18.000.000</p> <br>
+            <a href='indexproduct1.html'>Buy Now</a>
+        </div><br><br>
+    </div>
+    
+
+    <div class="kategory-foot2">
+        <div class="row mx-0">
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <div>
+                    <h4 class="font-weight-bold" style="color: #ff8b00;">Punya Toko Online? Buka cabangnya di Tokoku
+                    </h4>
+                    <h5 class="mt-5 font-weight-normal">Mudah, nyaman dan bebas komisi transaksi. <span
+                            class="font-weight-bold">GRATIS!</span> </h5>
+                    <div class="d-flex align-items-center">
+                        <a href="indexsignin2.html"><button class="btn mr-4 text-white" style="background-color: #0306ac;">Buka Toko GRATIS</button></a>
+                        <a href="" style="color: #0306ac;">Pelajari lebih lanjut</a>
+                    </div>
+                </div>
+                <img src="assets/img/17.png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <hr style="position: relative; top: 190px; border-top: 1px dashed black; margin: 10px 20px;">
+
+    <div class="kategory-foot3">
+        <p>Belanja di Tokoku Sebagai Solusi Lelang Mudah, Nyaman, dan Cepat</p>
+        <p>Tokoku merupakan salah satu e-commerce di Indonesia yang perkembangannya terhitung cepat, menjadikannya
+            sebagai marketplace pilihan bagi banyak masyarakat Indonesia. Hal ini disebabkan kehadiran Tokoku membuat
+            pengalaman belanja online para penggunanya menjadi mudah, nyaman, dan efisien. Tersedia berbagai fitur dan
+            metode pembayaran yang dapat Anda pilih, untuk memastikan kegiatan belanja Anda dapat dilakukan senyaman
+            mungkin. Baik itu melalui transfer bank yang bisa dilakukan menggunakan rekening dari berbagai bank yang
+            tersedia, uang elektronik , hingga cicilan. Sistem berbelanja di Tokoku terintegrasi pula
+            dengan sistem beberapa jasa ekspedisi. Kerjasama yang dijalin ini memungkinkan Tokoku untuk memberikan
+            penawaran pengiriman gratis, dan memungkinkan pengguna yang berbelanja untuk terus melacak status pengiriman
+            produk yang mereka beli. Jadi, produk apapun yang dibeli di Tokoku baik itu pakaian bayi, aksesoris
+            mobil, aksesoris kamera, celana, jam, hingga peralatan elektronik seperti kabel dan peralatan gaming, atau
+            makanan sekali pun dapat terus Anda lacak keberadaannya untuk memastikan akan sampai dengan aman. Data
+            pribadi dan seluruh transaksi yang sudah maupun yang akan Anda lakukan di Tokoku dilindungi oleh
+            kebijakan privasi Tokoku, sehingga tak perlu khawatir data Anda akan jatuh ke pihak yang tidak
+            bertanggungjawab dan/atau disalahgunakan. Karena faktor-faktor tersebut lah, Tokoku menjadi solusi untuk
+            belanja online dengan mudah dan aman.<br><br>
+            Kini, tak perlu ragu lagi untuk membeli semua kebutuhan rumah tangga atau keperluan pribadimu di website
+            jual beli online terpercaya, Tokoku. Karena dengan berbelanja di Waktu Indonesia Belanja dari Tokoku.
+            Kami menjamin semua produk yang kami tawarkan memiliki harga lebih murah dibandingkan dengan waktu belanja
+            pada umumnya. Selain itu, nikmati pula membeli aneka barang kebutuhan dengan mudah, lengkap, praktis dan
+            aman dengan penawaran diskon Tokoku yang melimpah. Segera nikmati pengalaman berbelanja online dengan
+            ribuan promo belanja Tokoku yang siap memanjakanmu, dengan membeli semua produk berkualitas di bawah
+            harga normal. Mulai dari produk kosmetik, peralatan rumah tangga, elektronik, fashion, perlengkapan ibu dan
+            bayi, makanan dan minuman semuanya tersedia lengkap dalam satu aplikasi saja. Tak perlu repot, tak perlu
+            ragu, ribuan promo Tokoku serta cashback Tokoku hingga ratusan ribu rupiah akan membawamu ke
+            pengalaman belanja online yang lebih untung. Tak tanggung-tanggung, kamu juga bisa menikmati bebas ongkir
+            pengiriman nol rupiah ke semua wilayah di Indonesia lho. Tunggu apa lagi? Cek segera campaign spesial Waktu
+            Indonesia Belanja dari Tokoku di ponsel kesayanganmu dan nikmati promo WIB dengan diskon mencapai 90%!
+        </p>
+
+        <a href="" style="color: #0306ac;">Selengkapnya</a></div>
+
+<script src="assets/js/jstoko.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
